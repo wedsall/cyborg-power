@@ -1,0 +1,150 @@
+{
+    "Problem": [
+        {
+            "Lower bound": -457.8,
+            "Name": "unknown",
+            "Number of binary variables": 12,
+            "Number of constraints": 18,
+            "Number of integer variables": 48,
+            "Number of nonzeros": 48,
+            "Number of objectives": 1,
+            "Number of variables": 48,
+            "Sense": "maximize",
+            "Upper bound": -457.8
+        }
+    ],
+    "Solution": [
+        {
+            "number of solutions": 1,
+            "number of solutions displayed": 1
+        },
+        {
+            "Constraint": "No values",
+            "Gap": 0.0,
+            "Message": null,
+            "Objective": {
+                "value": {
+                    "Value": 457.79999999999995
+                }
+            },
+            "Problem": {},
+            "Status": "optimal",
+            "Variable": {
+                "x[51,Cold Fusion Grid Pack]": {
+                    "Value": 1.0
+                },
+                "x[51,Efficiency Coprocessor]": {
+                    "Value": 1.0
+                },
+                "x[51,Flywheel Grid Pack]": {
+                    "Value": 5.0
+                },
+                "x[51,Nuclear Reactor Grid Pack]": {
+                    "Value": 1.0
+                },
+                "x[51,Power Grid]": {
+                    "Value": 1.0
+                },
+                "x[51,Solar Cell Grid Pack]": {
+                    "Value": 1.0
+                },
+                "x[52,Cold Fusion Grid Pack]": {
+                    "Value": 2.0
+                },
+                "x[52,Efficiency Coprocessor]": {
+                    "Value": 1.0
+                },
+                "x[52,Flywheel Grid Pack]": {
+                    "Value": 4.0
+                },
+                "x[52,Power Grid]": {
+                    "Value": 1.0
+                },
+                "x[52,Power Management System]": {
+                    "Value": 1.0
+                },
+                "x[53,Cold Fusion Grid Pack]": {
+                    "Value": 2.0
+                },
+                "x[53,Efficiency Coprocessor]": {
+                    "Value": 1.0
+                },
+                "x[53,Flywheel Grid Pack]": {
+                    "Value": 4.0
+                },
+                "x[53,Power Grid]": {
+                    "Value": 1.0
+                },
+                "x[53,Power Management System]": {
+                    "Value": 1.0
+                },
+                "x[54,Battery Grid Pack]": {
+                    "Value": 1.0
+                },
+                "x[54,Cold Fusion Grid Pack]": {
+                    "Value": 2.0
+                },
+                "x[54,Efficiency Coprocessor]": {
+                    "Value": 1.0
+                },
+                "x[54,Flywheel Grid Pack]": {
+                    "Value": 5.0
+                },
+                "x[54,Power Grid]": {
+                    "Value": 1.0
+                },
+                "x[55,Cold Fusion Grid Pack]": {
+                    "Value": 2.0
+                },
+                "x[55,Efficiency Coprocessor]": {
+                    "Value": 1.0
+                },
+                "x[55,Flywheel Grid Pack]": {
+                    "Value": 4.0
+                },
+                "x[55,Power Grid]": {
+                    "Value": 1.0
+                },
+                "x[55,Ultracapacitor Grid Pack]": {
+                    "Value": 2.0
+                },
+                "x[56,Cold Fusion Grid Pack]": {
+                    "Value": 2.0
+                },
+                "x[56,Efficiency Coprocessor]": {
+                    "Value": 1.0
+                },
+                "x[56,Flywheel Grid Pack]": {
+                    "Value": 5.0
+                },
+                "x[56,Power Grid]": {
+                    "Value": 1.0
+                },
+                "x[56,Ultracapacitor Grid Pack]": {
+                    "Value": 1.0
+                }
+            }
+        }
+    ],
+    "Solver": [
+        {
+            "Error rc": 0,
+            "Statistics": {
+                "Black box": {
+                    "Number of iterations": 1641371
+                },
+                "Branch and bound": {
+                    "Number of bounded subproblems": 1013543,
+                    "Number of created subproblems": 1013543
+                }
+            },
+            "Status": "ok",
+            "System time": 347.84,
+            "Termination condition": "optimal",
+            "Termination message": "Model was solved to optimality (subject to tolerances), and an optimal solution is available.",
+            "Time": 80.02697730064392,
+            "User time": -1.0,
+            "Wallclock time": 79.96
+        }
+    ]
+}
