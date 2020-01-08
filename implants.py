@@ -7,12 +7,22 @@ MAX_LEV=56
 GLCAP=100
 NGLCAP=20
 
+# weights
 STOR_WT=1/75
 IMPLANT_COUNT_WT=1/10
 REGEN_WT=3
 
 PWR_FROM_MGT=4
 model.S = Set(initialize=[x for x in range(51,MAX_LEV+1)], doc='levels')
+#implant_data structure
+# key: implant name
+#  0: control requirement
+#  1: power storage
+#  2: power regeneration
+#  3: implant Power Grid requirement
+#  4: requires lack of Power Grid
+#  5: implant limit
+#  6: hard caps at which the implant will not be installed
 implant_data = {
         'Advanced Flywheel':        [1.50,    75, 0,  0, -1,  2, NGLCAP],
         'Battery Grid Pack':        [0.50,    50, 0, -1,  0,101,  GLCAP],
